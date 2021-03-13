@@ -39,7 +39,7 @@ public class RecommendPersenter implements RecommendContract.Persenter {
 ////                mView.showError(t.getMessage());
 ////            }
 ////        });
-
+   //
         mModel.getApps()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
