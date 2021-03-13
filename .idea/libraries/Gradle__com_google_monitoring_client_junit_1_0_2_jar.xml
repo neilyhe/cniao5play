@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.monitoring-client:junit:1.0.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.monitoring-client/junit/1.0.2/a16f2c0a27216a7824bd0982b8e8a3a75a4d007f/junit-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.monitoring-client/junit/1.0.2/d0c277cbe06b67f8c036532176dc592775c0915e/junit-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.monitoring-client/junit/1.0.2/73aa41a13e249c447f5b6af33ca848ee38980d9c/junit-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
