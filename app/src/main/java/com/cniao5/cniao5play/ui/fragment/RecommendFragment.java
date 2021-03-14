@@ -22,6 +22,8 @@ import java.util.List;
 
 public class RecommendFragment extends BaseFragment implements RecommendContract.View {
 
+    private static final String NAME_TAG = "RecommendFragment";
+
     private RecommendPersenter mPersenter;
     RecyclerView mRecyclerView;
 
@@ -39,6 +41,11 @@ public class RecommendFragment extends BaseFragment implements RecommendContract
     @Override
     protected int setLayout() {
         return R.layout.catagory_fragment;
+    }
+
+    @Override
+    protected String setTag() {
+        return NAME_TAG;
     }
 
     @Override

@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 
 public class GamesFragment extends BaseFragment {
 
+    private static final String NAME_TAG = "GamesFragment";
 
     @Override
     protected void initView(View view) {
@@ -25,5 +26,10 @@ public class GamesFragment extends BaseFragment {
     @Override
     protected int setLayout() {
         return 0;
+    }
+
+    @Override
+    protected String setTag() {
+        return NAME_TAG;
     }
 }
